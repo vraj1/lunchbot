@@ -1,0 +1,11 @@
+.lunch_input{
+    margin: auto;
+    width: 50%;
+    position: relative;
+}
+
+#submitted{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
