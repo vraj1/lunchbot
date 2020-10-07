@@ -1,1 +1,3 @@
-# lunchbot
+# Lunchbot
+Lunchbot is a slack bot to help employees at Index Exchange look  up what there is for lunch today/for the week. The Catering team simply inputs the information on a closed website. The information is then extracted by the bot using NodeJS and is stored in a cloud-based MongoDB.
+As per the user requests on slack such as /lunchbot what is for lunch today OR /lunchbot what is for lunch this week OR simply /lunchbot will use REST Apis to extract, send, update and retrieve information in the mongo database and output the lunch menu for the requested day, if there is no requested day then for the whole week. 
